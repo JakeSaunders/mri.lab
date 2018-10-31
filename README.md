@@ -6,4 +6,4 @@ These materials were adapted from the *Introduction to Neurohacking in R* course
 
 The link to the *Introduction to Neurohacking in R* course is: https://www.coursera.org/learn/neurohacking
 
-The link to the full course materials from that course can be found here: [https://github.com/muschellij2/Neurohacking].
+The link to the full course materials from that course can be found here: https://github.com/muschellij2/Neurohacking.
