@@ -6,6 +6,12 @@ To get started have each student download the lab.exercise.R file, open it and f
 
 These materials were adapted from the *Introduction to Neurohacking in R* coursera course. 
 
-The link to the *Introduction to Neurohacking in R* course is: https://www.coursera.org/learn/neurohacking
+The link to the *Introduction to Neurohacking in R* course is: 
 
-The link to the full course materials from that course can be found here: https://github.com/muschellij2/Neurohacking.
+https://www.coursera.org/learn/neurohacking
+
+The link to the full course materials from that course can be found here: 
+
+https://github.com/muschellij2/Neurohacking.
+
+https://github.com/muschellij2/Neurohacking_data
