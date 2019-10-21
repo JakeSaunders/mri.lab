@@ -292,7 +292,7 @@ plot(x = DNase$conc, y = DNase$density)
 # From here I could make it a publication quailty graph 
 # with a title and more discriptive X and Y axes labels
 # by looking at ?plot and filling in the other arguments below. 
-# (assume concentration is in mM and density is unitless)
+# (assume concentration is in mM and density is lumens)
 # If you want to know more about how the DNase data set used
 # for this step was generated check using the help 
 # feature (e.g. ?DNase ).
@@ -419,7 +419,7 @@ lab <- read.csv("SensorimotorLab.csv")
 
 
 
-    # A scatterplot showing the relationship between 
+    # A scatterplot showing the relationship between Time and Errors
 
 
 
