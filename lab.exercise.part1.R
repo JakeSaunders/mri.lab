@@ -1,7 +1,7 @@
 # Before you do anything else in R we need to make sure 
 # you have the files required for this lab and
 # tell R which directory the files are in (called setting your working directory).
-# We have writen code which does this for you but you need to run it.
+# We have written code which does this for you but you need to run it.
 # To run it follow the directions on line 7, 12 and 14 to 16.
 
 # <---------    Highlight from this line...
@@ -66,7 +66,7 @@ txt
 
 # R is really good at storing and processing lists of things. 
 # To make a list (or as R calls it a Vector) of numbers use the first and last number in
-# a list seperated by a : like so
+# a list separated by a : like so
 
 1:100
 
@@ -82,9 +82,9 @@ c(1,7,9,100,80,280,2,59)
 ?c
 
 # Look to the bottom right panel for the details or manual on how to use the c() function. 
-# Read through the c( ) doumentation and see if you have any questions. As you can see the
+# Read through the c( ) documentation and see if you have any questions. As you can see the
 # information is very detailed but all the R documentation entries have the same format so
-# the secert to figuring out how to do new things in R is often to read the documentation.
+# the secret to figuring out how to do new things in R is often to read the documentation.
 
 
 # As you assigned a single number of character string to a variable. 
@@ -116,7 +116,7 @@ my.numbers/10:17
 
 
 # The result of this code is to divide every number in the 
-# my.numbers varible with the corresponding number in the
+# my.numbers variable with the corresponding number in the
 # list of numbers 10, 11, 12, 13, 14, 15, 16, 17.
 # Check a couple of these by hand so you know I am correct.
 
@@ -131,7 +131,7 @@ my.new.numbers
 
 # Make sure the value of the thing on the right is what you want
 # the value of the thing on the left to become. The assignment 
-# opperrator ( <- ) is an arrow because of this reason. The equals sign
+# operator ( <- ) is an arrow because of this reason. The equals sign
 # also works this way but it is also used for other things in R, so 
 # it is best if you don't use the equals sign for both things. 
 
@@ -149,7 +149,7 @@ paste(my.strings, "Adding This")
 
 paste(my.strings, my.other.strings)
 
-# Some fuctions only work on one type of information (e.g. numbers or strings) 
+# Some functions only work on one type of information (e.g. numbers or strings) 
 # and will try to force or coerce one type of information into the other to make the
 # command work. For example if you give paste numeric information it forces it into a string
 
@@ -158,26 +158,26 @@ paste(1,2)
 paste( my.strings, my.numbers)
 
 
-# Some functions will have opitions that you can pick in addition to the data you give them.
+# Some functions will have options that you can pick in addition to the data you give them.
 # These are called arguments and can be found in the help page for a function. 
 # Write a line of code to look up the help (?) for the paste function to see the arguments
 # and what they do.
 
 
 
-# Then after reading the the help document use paste(), my.strings, my.numbers and 
+# Then after reading the help document use paste(), my.strings, my.numbers and 
 # one of the arguments to write a line of code to produce the following output:
 
 "You.1-Can.7-Even.9-Make.100-A.80-List.280-of.2-strings.59"
 
-# and paste these this code in the worksheet under entry 2. 
+# and paste this code in the worksheet under entry 2. 
 
 
 
 
 # This best way to approach this problem is to 
-# write code you think might work and run it
-# see what the result. You can't break anything
+# write code you think might work and run it to
+# see what's the result. You can't break anything
 # by doing this, the worse that will happen is 
 # that you will see a red error message in the console
 # if things don't work. If you can't figure out the 
@@ -213,7 +213,7 @@ dim(DNase)
 
 # Now write two lines of code.
 # The first should assign the DNase to a new variable name. 
-# The second should using the dim() function to check that 
+# The second should use the dim() function to check that 
 # it is the same size as DNase. Paste both the lines 
 # into answer #3 on the worksheet. 
 
@@ -228,7 +228,7 @@ dim(DNase)
 DNase[20:30, ]
 
 # You can also subset by columns.
-# The following code selects colum 2 and 3
+# The following code selects column 2 and 3
 
 DNase[ , 2:3]
 
@@ -236,12 +236,12 @@ DNase[ , 2:3]
 DNase[40:45, 2:3]
 
 # Before you move on, notice the commas in the above lines of code.
-# Comma placement is very import in R, as you might have already realized
+# Comma placement is very important in R, as you might have already realized
 # from the exercise with the paste() function. A good first step when
 # you are troubleshooting things in R is to double check your commas. 
 
 # While comma placement is very important, spaces and even line returns (e.g. "enters") 
-# are generally not important. For example run the following piecesr of code and notice 
+# are generally not important. For example run the following pieces of code and notice 
 # that each gives you the same results. 
 
 DNase[40:45, 2:3]
@@ -285,12 +285,12 @@ DNase$conc
 
 plot(x = DNase$conc, y = DNase$density)
 
-# Notice how I used the $ to select indiviudal columns of
+# Notice how I used the $ to select individual columns of
 # the data set. Remembering that will make the last part 
 # of this exercise easier. 
 
-# From here I could make it a publication quailty graph 
-# with a title and more discriptive X and Y axes labels
+# From here I could make it a publication quality graph 
+# with a title and more descriptive X and Y axes labels
 # by looking at ?plot and filling in the other arguments below. 
 # (assume concentration is in mM and density is lumens)
 # If you want to know more about how the DNase data set used
@@ -311,12 +311,12 @@ plot(
 # Then just above the graph in the bottom right panel 
 # click on Export > Save as Image to save the graph 
 # you generated as a JPEG file and paste 
-# the it under your code in #5 on the work sheet.
+# it under your code in #5 on the work sheet.
 
 
 # Before we start the next section we what to clear our work space of the variables
 # we have assigned. To see all the variables currently assigned use the ls() function
-# or look in the "Enviroment" table in the upper right. You can even hover on these 
+# or look in the "Environment" table in the upper right. You can even hover on these 
 # variables to see details about them.
 
 ls()
@@ -328,17 +328,17 @@ ls()
 
 #### Part 3) Get some practice with R ----
 
-# One of the reasons so many scientist use R is that it's free and
+# One of the reasons so many scientists use R is that it's free and
 # people have written groups of small programs or functions to deal with 
 # all different types of data or to accomplish many different tasks.
 # These groups of programs are call packages. 
 
-# Several of the most use packages are loaded when you install R and you can
+# Several of the most used packages are loaded when you install R and you can
 # view a list them by looking under the "Packages" tab in the bottom right.
 # Take a look.
 
 # But not everybody needs every package so specialized packages sometimes have
-# to be installed before they can be used. And that is acomplished with a function
+# to be installed before they can be used. And that is accomplished with a function
 # install.packages(...)
 
 #There is even a package called swirl that teaches you how to use R (https://swirlstats.com). 
@@ -348,13 +348,13 @@ install.packages("swirl")
 install.packages("jpeg")
 
 # After the package is installed, you then have to tell R that you are going to be using it.
-# this is called loading a package and it is acomplished with the library function. 
+# this is called loading a package and it is accomplished with the library function. 
 # run the code below to load the swirl. 
 
 library("swirl")
-# Note: Run the next two lines before the follow the instructions in the cons
+# Note: Run the next two lines, then follow the instructions in the console
 
-# then we are going to install some specific exercises in swirl by runing the following code
+# then we are going to install some specific exercises in swirl by running the following code
 
 install_course("R Programming")
 install_course("Exploratory_Data_Analysis")
@@ -372,7 +372,7 @@ swirl()
     # 8: Logic
     # 15: Base Graphics
 
-# After completeing those lessons, select "Exploratory Data Analysis" within swirl and 
+# After completing those lessons, select "Exploratory Data Analysis" within swirl and 
 # complete "5: Base Plotting System" 
 
 # Here are some specific commands that you might want to remember while in swirl:
@@ -385,7 +385,7 @@ swirl()
 # | -- Typing info() displays these options again.
 
 
-#### Part 4) Ploting your own data ----
+#### Part 4) Plotting your own data ----
 
 # Once you are done with these tutorials you should have a 
 # good idea of how to make graphs of your own data in R. 
@@ -406,7 +406,7 @@ lab <- read.csv("SensorimotorLab.csv")
 
 # Now using what you know write code to make 3 graphs 
 # Save those graphs using the export command in the "Plots" panel
-# You might want to do some reseach to figure out how to add some color 
+# You might want to do some research to figure out how to add some color 
 # to your graphs to make them more interesting and unique
     
     # A boxplot showing the relationship between Trial and Time
