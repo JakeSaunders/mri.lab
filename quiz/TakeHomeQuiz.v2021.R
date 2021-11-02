@@ -39,7 +39,7 @@ legend()
 # This quiz is an exercise in problem solving and synthesizing information you have 
 # been provided which is an important part of doing neuroscience.
 
-##### Part 2: Class N-back data #### ----
+##### Part 2: Class PER data #### ----
 
 # Run the function below to download a data set from the PER experiments from everyone 
 # that followed instructions and shared there data. 
