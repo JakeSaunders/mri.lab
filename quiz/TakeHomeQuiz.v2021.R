@@ -78,9 +78,8 @@ lab <- read.csv("PER.class.csv")
     
     # Formula: dependent.variable ~ independent.variable.1 + independent.variable.2
 
-lab.summary <- aggregate(
-    data = lab, 
-    formula = PER ~ Trial.Type + Sex + Odor + Tastant, 
+lab.summary <- aggregate( 
+    PER ~ Trial.Type + Sex + Odor + Tastant, lab,
     FUN =  mean
 )
 
