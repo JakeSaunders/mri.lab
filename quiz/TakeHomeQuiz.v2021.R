@@ -6,7 +6,7 @@
 # everyone's graphs should look unique (e.g. they should have a different 
 # titles, labels, color schemes, line or dot types). Think about what 
 # you want your graph to look like, make it in R, save them as PDFs and 
-# email to your lab instructor by indicated time. 
+# turn them in through canvas by indicated time. 
 
 # These graphs should be "good graphs" that contain:
     # .An informative title
@@ -44,7 +44,7 @@ legend()
 # Run the function below to download a data set from the PER experiments from everyone 
 # that followed instructions and shared there data. 
 download.file(
-    url = "https://raw.githubusercontent.com/JakeSaunders/mri.lab/master/n-back.class.csv",
+    url = "https://github.com/JakeSaunders/mri.lab/blob/master/quiz/PER.class.csv",
     destfile = "Per.class.csv"
 )
 # ...And read the file into R with the following code
