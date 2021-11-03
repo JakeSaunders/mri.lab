@@ -44,7 +44,7 @@ legend()
 # Run the function below to download a data set from the PER experiments from everyone 
 # that followed instructions and shared there data. 
 download.file(
-    url = "https://github.com/JakeSaunders/mri.lab/blob/master/quiz/PER.class.csv",
+    url = "https://raw.githubusercontent.com/JakeSaunders/mri.lab/master/quiz/PER.class.csv",
     destfile = "Per.class.csv"
 )
 # ...And read the file into R with the following code
