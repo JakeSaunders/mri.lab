@@ -45,7 +45,7 @@ legend()
 # that followed instructions and shared there data. 
 download.file(
     url = "https://raw.githubusercontent.com/JakeSaunders/mri.lab/master/quiz/PER.class.csv",
-    destfile = "Per.class.csv"
+    destfile = "PER.class.csv"
 )
 # ...And read the file into R with the following code
 lab <- read.csv("PER.class.csv")
