@@ -83,6 +83,9 @@ lab.summary <- aggregate(
     FUN =  mean
 )
 
+# this code will order the data by trial type which will make it easier to plot
+lab.summary <- lab.summary[order(lab.summary$Trial.Type),]
+
 # look at the summarized data by running the follow line of code:
 lab.summary
 
